@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  get-information-doctor:
+   build: ../get-information-doctor
+   ports:
+     - 5011
+
+  
